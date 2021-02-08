@@ -4,7 +4,7 @@ with open("README.MD", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="LottieNB",
+    name="lottie-nb",
     version="0.0.1",
     author="kudanai",
     author_email="kudanai@gmail.com",

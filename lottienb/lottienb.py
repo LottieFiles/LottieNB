@@ -4,14 +4,14 @@ from html import escape
 
 
 def __loadjs__():
-    display(HTML('<script lottienb="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>'))
+    display(HTML('<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>'))
 
 
 @register_line_magic
 def render_json(data, width=300, height=300):
     __loadjs__()
     js = f'<lottie-player ' \
-         f'lottienb="{escape(data)}" ' \
+         f'src="{escape(data)}" ' \
          f'background="transparent" ' \
          f'speed="1" ' \
          f'style="width: {width}px; height: {height}px;" ' \
