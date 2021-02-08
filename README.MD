@@ -16,10 +16,6 @@ within this repo
 
 ### Installation
 
-  * Install from PyPi  
-    `pip install lottienb`  
-    
-
   * Install from git  
     `pip install git+https://github.com/LottieFiles/LottieNB.git`
 
