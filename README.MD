@@ -9,6 +9,11 @@ At LottieFiles we often find ourselves experimenting with tools
 to generate animations from code. Often times we needed a quick
 way to preview them.
 
+### Usage
+
+For usage, please check out the `sample.ipynb` notebook 
+within this repo
+
 ### Installation
 
   * Install from PyPi  
